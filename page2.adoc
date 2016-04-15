@@ -83,8 +83,23 @@ image::f4.png[]
 
 link:integrationContinue.html[Formation à Travis]
 
-****                              
-|====                                  
-|  link:index.html[<<< PREVIOUS ]  |  |  |  |  |  |   link:page3.html[NEXT >>>] |
+
+---
+
+[.right.text-center]
+[options="header,footer,autowidth"]
 |====
-****
+
+|  link:page3.html[NEXT>>>]            
+
+|====
+
+[.left.text-center]
+[options="header,footer,autowidth"]
+|====
+
+|  link:index.html[<<<PREVIOUS]            
+
+|====
+
+---
