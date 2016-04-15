@@ -11,8 +11,8 @@ git config --global user.name "Dorlige"
 git clone --quiet https://${GH_TOKEN}@github.com/Dorlige/ProjetIntegrationContinue.git gh-pages > /dev/null
 
 cd gh-pages
- git remote rm origin
- git remote add origin https://${GH_TOKEN}@github.com/Dorlige/ProjetIntegrationContinue.git
+ #git remote rm origin
+ #git remote add origin https://${GH_TOKEN}@github.com/Dorlige/ProjetIntegrationContinue.git
  
  cp $HOME/html/* ./
  
