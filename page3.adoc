@@ -77,8 +77,14 @@ image::f6.png[]
 link:deploiement-sur-github.pdf[Article sur le déploiement]
 
 
-****                              
-|====                                  
-|   |  |  |  |  |  |  link:page2.html[<<< PREVIOUS ]  
+---
+
+[.right.text-center]
+[options="header,footer,autowidth"]
 |====
-****
+
+|  link:page2.html[<<<PREVIOUS ]            
+
+|====
+
+---
