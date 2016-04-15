@@ -14,21 +14,12 @@ git clone --quiet https://${GH_TOKEN}@github.com/Dorlige/ProjetIntegrationContin
 cd gh-pages
 git checkout gh-pages
 
-
- #git remote rm origin
- #git remote add origin https://${GH_TOKEN}@github.com/Dorlige/ProjetIntegrationContinue.git
  
  cp $HOME/html/* ./
- 
- #git checkout gh-pages
-
  
  git add -f .
  git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to gh-pages "
  
- #git checkout gh-pages
- 
   git push -fq origin gh-pages
-  #git push -fq https://${GH_TOKEN}@github.com/Dorlige/ProjetIntegrationContinue.git master > /dev/null
  echo -e "Deploy completed\n"
  #fi
