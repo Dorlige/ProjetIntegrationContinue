@@ -13,6 +13,7 @@ git clone --quiet https://${GH_TOKEN}@github.com/Dorlige/ProjetIntegrationContin
 cd gh-pages
  git remote rm origin
  git remote add origin https://${GH_TOKEN}@github.com/Dorlige/ProjetIntegrationContinue.git
+ git checkout gh-pages
  
  cp $HOME/html/* ./
  
