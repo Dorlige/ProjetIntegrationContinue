@@ -8,14 +8,15 @@ cd $HOME
 git config --global user.email "saindy.nkadi@yahoo.fr"
 git config --global user.name "Dorlige"
 
-git clone --quiet https://${GH_TOKEN}@github.com/Dorlige/ProjetIntegrationContinue.git gh-pages > /dev/null
-
-git checkout gh-pages
-cd gh-pages
+#git clone --quiet https://${GH_TOKEN}@github.com/Dorlige/ProjetIntegrationContinue.git gh-pages > /dev/null
 
 
- git remote rm origin
- git remote add origin https://${GH_TOKEN}@github.com/Dorlige/ProjetIntegrationContinue.git
+cd master
+git checkout master
+
+
+ #git remote rm origin
+ #git remote add origin https://${GH_TOKEN}@github.com/Dorlige/ProjetIntegrationContinue.git
  
  cp $HOME/html/* ./
  
@@ -27,7 +28,7 @@ cd gh-pages
  
  #git checkout gh-pages
  
-  git push -fq origin gh-pages  
+  git push -fq origin master
   #git push -fq https://${GH_TOKEN}@github.com/Dorlige/ProjetIntegrationContinue.git master > /dev/null
  echo -e "Deploy completed\n"
  #fi
