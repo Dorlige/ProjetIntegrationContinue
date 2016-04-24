@@ -3,9 +3,9 @@ install:
 - gem install coderay
 - gem install link-checker
 script:
-- asciidoctor -a icons -a linkcss!  faq.adoc -o html/index.html 
-- asciidoctor -a icons -a linkcss! page2.adoc -o html/page2.html 
-- asciidoctor -a icons -a linkcss!  page3.adoc -o html/page3.html 
+- asciidoctor  faq.adoc -o html/index.html 
+- asciidoctor  page2.adoc -o html/page2.html 
+- asciidoctor   page3.adoc -o html/page3.html 
 - rake check_links
 - rake test
 sudo: true
