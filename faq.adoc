@@ -2,11 +2,10 @@
 
 :library: Asciidoctor
 :idprefix: 
-:numbered:
 :imagesdir: images
-:toc: manual
+:toc: left
 :stylesdir: css
-:toc-placement: preamble
+
 
 
 image::logo.jpg[]  
