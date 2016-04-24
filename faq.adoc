@@ -5,7 +5,7 @@
 :imagesdir: images
 :toc: left
 :stylesdir: css
-:toc-placement: preamble
+
 
 
 image::logo.jpg[]  
